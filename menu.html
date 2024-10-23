@@ -142,123 +142,122 @@
 
     <!--MAIN-->
     <main>
-    <section>
-        <h2>Lanches Tradicionais </h2>
+        <section>
+            <h2>Lanches Tradicionais </h2>
 
-        <!--div-->
-        <div class="container-fluid">
-            <div class="row justify-content-center d-flex">
-                <!-- Card X-Burguer -->
-                <div class="col-md-3 mb-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNQ_JtI1GQHJYC4P9NcEnKX7ia48WpFf7VGTnPvqklkUvbxhr6vKEeONZvSRmhw6pI6Dw&usqp=CAU" class="img-thumbnail" style="width: 18rem; height: 10rem;" alt="X-Burguer">
-                        <div class="card-body" style="text-align: center;">
-                            <h5 class="card-title">X-Burguer</h5>
-                            <p class="card-text" style="margin-top: 20px;">R$ 13,00</p>
-                            <button type="button" data-bs-toggle="collapse" data-bs-target="#ingredientesXBurguer" aria-expanded="false" aria-controls="ingredientesXBurguer" style="width: 130px;" class="mb-0">
-                                Ver Ingredientes
-                            </button>
-                            <div class="collapse" id="ingredientesXBurguer">
-                                <div class="card card-body" style="text-align: left; padding: 10px;">
-                                    2 hamburguers, Queijo, Maionese, Pão de leite
+             <!--div-->
+             <div class="container-fluid d-flex flex-wrap">
+                    <!-- Card X-Burguer -->
+                    <div class="col-md-3 mb-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNQ_JtI1GQHJYC4P9NcEnKX7ia48WpFf7VGTnPvqklkUvbxhr6vKEeONZvSRmhw6pI6Dw&usqp=CAU" class="img-thumbnail" style="width: 18rem; height: 10rem;" alt="X-Burguer">
+                            <div class="card-body" style="text-align: center;">
+                                <h5 class="card-title">X-Burguer</h5>
+                                <p class="card-text" style="margin-top: 20px;">R$ 13,00</p>
+                                <button type="button" data-bs-toggle="collapse" data-bs-target="#ingredientesXBurguer" aria-expanded="false" aria-controls="ingredientesXBurguer" style="width: 130px;" class="mb-0">
+                                    Ver Ingredientes
+                                </button>
+                                <div class="collapse" id="ingredientesXBurguer">
+                                    <div class="card card-body" style="text-align: left; padding: 10px;">
+                                        2 hamburguers, Queijo, Maionese, Pão de leite
+                                    </div>
                                 </div>
+                                <button class="adicionar" data-nome="X-Burguer" data-preco="13.00" onclick="adicionarAoCarrinho('X-Burguer', 13.00)" style="width: 130px;">
+                                    COMPRAR
+                                </button>
                             </div>
-                            <button class="adicionar" data-nome="X-Burguer" data-preco="13.00" onclick="adicionarAoCarrinho('X-Burguer', 13.00)" style="width: 130px;">
-                                COMPRAR
-                            </button>
                         </div>
                     </div>
-                </div>
-                
-                <!-- Card X-Salada -->
-                <div class="col-md-3 mb-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="https://img.cybercook.com.br/receitas/151/x-salada-3.jpeg?w=350&h=230&fit=crop" class="img-thumbnail" style="width: 18rem; height: 10rem;" alt="X-Salada">
-                        <div class="card-body" style="text-align: center;">
-                            <h5 class="card-title">X-Salada</h5>
-                            <p class="card-text" style="margin-top: 20px;">R$ 15,00</p>
-                            <button type="button" data-bs-toggle="collapse" data-bs-target="#ingredientesXSalada" aria-expanded="false" aria-controls="ingredientesXSalada" style="width: 130px;" class="mb-0">
-                                Ver Ingredientes
-                            </button>
-                            <div class="collapse" id="ingredientesXSalada">
-                                <div class="card card-body" style="text-align: left; padding: 10px;">
-                                    2 hamburguers, Queijo, Maionese, Alface, Tomate, Pão de leite
+                    
+                    <!-- Card X-Salada -->
+                    <div class="col-md-3 mb-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://img.cybercook.com.br/receitas/151/x-salada-3.jpeg?w=350&h=230&fit=crop" class="img-thumbnail" style="width: 18rem; height: 10rem;" alt="X-Salada">
+                            <div class="card-body" style="text-align: center;">
+                                <h5 class="card-title">X-Salada</h5>
+                                <p class="card-text" style="margin-top: 20px;">R$ 15,00</p>
+                                <button type="button" data-bs-toggle="collapse" data-bs-target="#ingredientesXSalada" aria-expanded="false" aria-controls="ingredientesXSalada" style="width: 130px;" class="mb-0">
+                                    Ver Ingredientes
+                                </button>
+                                <div class="collapse" id="ingredientesXSalada">
+                                    <div class="card card-body" style="text-align: left; padding: 10px;">
+                                        2 hamburguers, Queijo, Maionese, Alface, Tomate, Pão de leite
+                                    </div>
                                 </div>
+                                <button class="adicionar" data-nome="X-Salada" data-preco="15.00" onclick="adicionarAoCarrinho('X-Salada', 15.00)" style="width: 130px;">
+                                    COMPRAR
+                                </button>
                             </div>
-                            <button class="adicionar" data-nome="X-Salada" data-preco="15.00" onclick="adicionarAoCarrinho('X-Salada', 15.00)" style="width: 130px;">
-                                COMPRAR
-                            </button>
                         </div>
                     </div>
-                </div>
-        
-                <!-- Card X-Egg -->
-                <div class="col-md-3 mb-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="https://sachefmio.blob.core.windows.net/fotos/x-egg-73519.jpg" class="img-thumbnail" style="width: 18rem; height: 10rem;" alt="X-Egg">
-                        <div class="card-body" style="text-align: center;">
-                            <h5 class="card-title">X-Egg</h5>
-                            <p class="card-text" style="margin-top: 20px;">R$ 18,00</p>
-                            <button type="button" data-bs-toggle="collapse" data-bs-target="#ingredientesXEgg" aria-expanded="false" aria-controls="ingredientesXEgg" style="width: 130px;" class="mb-0">
-                                Ver Ingredientes
-                            </button>
-                            <div class="collapse" id="ingredientesXEgg">
-                                <div class="card card-body" style="text-align: left; padding: 10px;">
-                                    2 hamburguers, Queijo, Ovo, Maionese, Pão de leite
-                                </div>
-                            </div>
-                            <button class="adicionar" data-nome="X-Egg" data-preco="18.00" onclick="adicionarAoCarrinho('X-Egg', 18.00)" style="width: 130px;">
-                                COMPRAR
-                            </button>
-                        </div>
-                    </div>
-                </div>
-        
-                <!-- Card X-Calabresa -->
-                <div class="col-md-3 mb-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIczmxHRq0UUX0g-755oXNjYLvQ-gUTYOUbA&s" class="img-thumbnail" style="width: 18rem; height: 10rem;" alt="X-Calabresa">
-                        <div class="card-body" style="text-align: center;">
-                            <h5 class="card-title">X-Calabresa</h5>
-                            <p class="card-text" style="margin-top: 20px;">R$ 18,00</p>
-                            <button type="button" data-bs-toggle="collapse" data-bs-target="#ingredientesXCalabresa" aria-expanded="false" aria-controls="ingredientesXCalabresa" style="width: 130px;" class="mb-0">
-                                Ver Ingredientes
-                            </button>
-                            <div class="collapse" id="ingredientesXCalabresa">
-                                <div class="card card-body" style="text-align: left; padding: 10px;">
-                                    2 hamburguers, Queijo, Calabresa defumada, Maionese, Pão de leite
-                                </div>
-                            </div>
-                            <button class="adicionar" data-nome="X-Calabresa" data-preco="18.00" onclick="adicionarAoCarrinho('X-Calabresa', 18.00)" style="width: 130px;">
-                                COMPRAR
-                            </button>
-                        </div>
-                    </div>
-                </div>
-        
-                <!-- Card X-Bacon -->
-                <div class="col-md-3 mb-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="https://sachefmio.blob.core.windows.net/fotos/x-bacon-73518.jpg" class="img-thumbnail" style="width: 18rem; height: 10rem;" alt="X-Bacon">
-                        <div class="card-body" style="text-align: center;">
-                            <h5 class="card-title">X-Bacon</h5>
-                            <p class="card-text" style="margin-top: 20px;">R$ 20,00</p>
-                            <button type="button" data-bs-toggle="collapse" data-bs-target="#ingredientesXBacon" aria-expanded="false" aria-controls="ingredientesXBacon" style="width: 130px;" class="mb-0">
-                                Ver Ingredientes
-                            </button>
-                            <div class="collapse" id="ingredientesXBacon">
-                                <div class="card card-body" style="text-align: left; padding: 10px;">
-                                    2 hamburguers, Queijo, Bacon, Maionese, Pão de leite
-                                </div>
-                            </div>
-                            <button class="adicionar" data-nome="X-Bacon" data-preco="20.00" onclick="adicionarAoCarrinho('X-Bacon', 20.00)" style="width: 130px;">
-                                COMPRAR
-                            </button>
-                        </div>
-                    </div>
-                </div>
             
-                <!-- Card X-Tudo -->
+                    <!-- Card X-Egg -->
+                    <div class="col-md-3 mb-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://sachefmio.blob.core.windows.net/fotos/x-egg-73519.jpg" class="img-thumbnail" style="width: 18rem; height: 10rem;" alt="X-Egg">
+                            <div class="card-body" style="text-align: center;">
+                                <h5 class="card-title">X-Egg</h5>
+                                <p class="card-text" style="margin-top: 20px;">R$ 18,00</p>
+                                <button type="button" data-bs-toggle="collapse" data-bs-target="#ingredientesXEgg" aria-expanded="false" aria-controls="ingredientesXEgg" style="width: 130px;" class="mb-0">
+                                    Ver Ingredientes
+                                </button>
+                                <div class="collapse" id="ingredientesXEgg">
+                                    <div class="card card-body" style="text-align: left; padding: 10px;">
+                                        2 hamburguers, Queijo, Ovo, Maionese, Pão de leite
+                                    </div>
+                                </div>
+                                <button class="adicionar" data-nome="X-Egg" data-preco="18.00" onclick="adicionarAoCarrinho('X-Egg', 18.00)" style="width: 130px;">
+                                    COMPRAR
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Card X-Calabresa -->
+                    <div class="col-md-3 mb-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIczmxHRq0UUX0g-755oXNjYLvQ-gUTYOUbA&s" class="img-thumbnail" style="width: 18rem; height: 10rem;" alt="X-Calabresa">
+                            <div class="card-body" style="text-align: center;">
+                                <h5 class="card-title">X-Calabresa</h5>
+                                <p class="card-text" style="margin-top: 20px;">R$ 18,00</p>
+                                <button type="button" data-bs-toggle="collapse" data-bs-target="#ingredientesXCalabresa" aria-expanded="false" aria-controls="ingredientesXCalabresa" style="width: 130px;" class="mb-0">
+                                    Ver Ingredientes
+                                </button>
+                                <div class="collapse" id="ingredientesXCalabresa">
+                                    <div class="card card-body" style="text-align: left; padding: 10px;">
+                                        2 hamburguers, Queijo, Calabresa defumada, Maionese, Pão de leite
+                                    </div>
+                                </div>
+                                <button class="adicionar" data-nome="X-Calabresa" data-preco="18.00" onclick="adicionarAoCarrinho('X-Calabresa', 18.00)" style="width: 130px;">
+                                    COMPRAR
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Card X-Bacon -->
+                    <div class="col-md-3 mb-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://sachefmio.blob.core.windows.net/fotos/x-bacon-73518.jpg" class="img-thumbnail" style="width: 18rem; height: 10rem;" alt="X-Bacon">
+                            <div class="card-body" style="text-align: center;">
+                                <h5 class="card-title">X-Bacon</h5>
+                                <p class="card-text" style="margin-top: 20px;">R$ 20,00</p>
+                                <button type="button" data-bs-toggle="collapse" data-bs-target="#ingredientesXBacon" aria-expanded="false" aria-controls="ingredientesXBacon" style="width: 130px;" class="mb-0">
+                                    Ver Ingredientes
+                                </button>
+                                <div class="collapse" id="ingredientesXBacon">
+                                    <div class="card card-body" style="text-align: left; padding: 10px;">
+                                        2 hamburguers, Queijo, Bacon, Maionese, Pão de leite
+                                    </div>
+                                </div>
+                                <button class="adicionar" data-nome="X-Bacon" data-preco="20.00" onclick="adicionarAoCarrinho('X-Bacon', 20.00)" style="width: 130px;">
+                                    COMPRAR
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                
+                <!--card-->
                 <div class="col-md-3 mb-3">
                     <div class="card" style="width: 18rem;">
                         <img src="https://deliveryportodegalinhas.com.br/wp-content/uploads/2013/06/x-tudo-600x600.jpg" class="img-thumbnail" style="width: 18rem; height: 10rem;" alt="X-Tudo">
@@ -272,19 +271,19 @@
                             </button>
                             <div class="collapse" id="ingredientesXTudo">
                                 <div class="card card-body" style="text-align: left; padding: 10px;">
-                                    2 hamburguers, Queijo, Bacon, Ovo, Maionese, Pão de leite
+                                    2 hamburguers, Queijo, Bacon, Calabresa, Ovo, Maionese, Alface, Tomate, Pão de leite
                                 </div>
                             </div>
+                            
                             <button class="adicionar" data-nome="X-Tudo" data-preco="20.00" onclick="adicionarAoCarrinho('X-Tudo', 20.00)" style="width: 130px;">
                                 COMPRAR
                             </button>
                         </div>
                     </div>
-                </div>
-            </div>   
-        </div>   
-    </section>
-</main>
+                </div>     
+             </div>   
+        </section>
+    </main>
 
     <!--MAIN-->
     <main>
